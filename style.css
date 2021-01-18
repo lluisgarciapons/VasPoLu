@@ -114,6 +114,10 @@ width: 20%;
     line-height: 30px;
 }
 
+.personas img {
+    height: 200px;
+}
+
 .ofrecemos-cont {
     display: flex;
     flex-wrap: wrap;
