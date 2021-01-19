@@ -64,8 +64,9 @@ header {
 
 .somos h3 {
     font-size: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
+
 
 .personas {
     display: flex;
@@ -99,7 +100,7 @@ header {
 
 .ofrecemos h3 {
     font-size: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     color: #52c8fa;
 }
 
@@ -108,18 +109,20 @@ header {
     flex-wrap: wrap;
     color: #fff;
     justify-content: center;
+    width: 90%;
+    margin: auto;
 }
 
 .ofrecemos-cont > div:nth-child(1),
 .ofrecemos-cont > div:nth-child(4),
 .ofrecemos-cont > div:nth-child(5) {
-    width: 20%;
+    width: 30%;
 }
 
 .ofrecemos-cont > div:nth-child(2),
 .ofrecemos-cont > div:nth-child(3),
 .ofrecemos-cont > div:nth-child(6) {
-    width: 80%;
+    width: 70%;
 }
 
 
@@ -132,10 +135,18 @@ header {
     margin: 40px 0;
 }
 
+.ofrecemos-cont > div > img {
+    width: 100%;
+}
+
 .ofrecemos-cont > div > p {
-    width: 60%;
+    width: 80%;
     font-size: 20px;
     line-height: 30px;
+}
+
+h3.tecnologias {
+    margin-top: 30px;
 }
 
 .footer {
@@ -145,7 +156,7 @@ header {
 
 .contacto h3 {
     font-size: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .back-top a {
@@ -179,6 +190,12 @@ header {
     .jumbotron > .container > h1 {
         font-size: 25px;
         letter-spacing: 8px;
+    }
+
+    .somos h3,
+    .ofrecemos h3,
+    .contacto h3 {
+        font-size: 32px;
     }
 
     .jumbotron {
