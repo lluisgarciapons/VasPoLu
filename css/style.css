@@ -4,6 +4,10 @@
     font-family: 'Roboto Mono', monospace;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 header {
     padding: 0 70px 0 70px;
     position: -webkit-sticky;
@@ -122,6 +126,7 @@ header {
 
 .ofrecemos-cont > div {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 40px 0;
